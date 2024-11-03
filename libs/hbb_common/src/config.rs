@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["148.135.19.25"];
-pub const PUBLIC_RS_PUB_KEY: &str = "bVDk3u5j9c3peXdLk+g0qou4y8ffms8o9cDqlc0QRJg=";
+pub const PUBLIC_RS_PUB_KEY: &str = "Ku8MYim2sAwOu+aQiQRdGW90cr+OPmgiDJH9c0G5RxY=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
